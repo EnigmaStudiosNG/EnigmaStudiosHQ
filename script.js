@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('teamMapButton').addEventListener('click', function() {
         var password = prompt("Ingrese la clave para acceder al Mapa De Equipo:");
 
-        if (password === 'EnigmaMPR2') {
+        if (password === 'EnigmaNG24') {
             window.location.href = 'markmap.html';
         } else {
             alert('Clave incorrecta. Inténtelo de nuevo.');
